@@ -32,13 +32,14 @@ div.rightcolum{
   text-align: center;
 }
 
-/*sets up the margins for the aboutMe div and changes the text size and, makes it bold and sets the background color to a transparent white*/
+/*sets up the margins for the aboutMe div and changes the text size and and sets the background color to a transparent white*/
 div.aboutMe{
   margin-left: 4em;
   margin-right: 4em;
   font-size: 20px;
-  font-weight: bold;
   background-color: rgba(255,255,255,.3);
+  border-radius: 11px;
+  border-color: rgba(255,255,255,.05);
   width: auto;
 }
 
