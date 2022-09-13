@@ -1,0 +1,104 @@
+
+/*-- Sets background color of the webpage to a photo found in pictures folder */
+body {
+
+  background-image: url(../picutres/background.jpg);
+  background-size: 150%;
+}
+
+/*Sets up the styling for the heading tag in index.html, centers the "Hello World" text and changes the color to white and bolds the text*/
+h1 {
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  background-color: rgba(255,255,255,.3);
+  font-style: bold;
+  margin: auto;
+  width: 5.3em;
+}
+
+/*creates a flexbook where there is two rows one with about me and one for the other elements*/
+div.flexbox{
+  display: flex;
+  flex-direction: row;
+}
+
+/*centers the left colum of the flexbox*/
+div.leftcolum{
+  text-align: center;
+}
+/*centers the right colum of the flexbox*/
+div.rightcolum{
+  text-align: center;
+}
+
+/*sets up the margins for the aboutMe div and changes the text size and, makes it bold and sets the background color to a transparent white*/
+div.aboutMe{
+  margin-left: 4em;
+  margin-right: 4em;
+  font-size: 20px;
+  font-style: bold;
+  background-color: rgba(255,255,255,.3);
+  width: auto;
+}
+
+
+/*First container for introduction sets up font-size and height and width of the text box*/
+div.intro{
+   font-size: 20px;
+   height: 50px;
+   width: 19em;
+ }
+ /*Second container for introduction with paramenters for background color and a border*/
+div.intro p {
+   background-color: rgba(255,255,255,.3);
+   border: 7px solid;
+   border-radius: 11px;
+   border-color: rgba(255,255,255,.05);
+  }
+
+/*picture container that sets up margins for the photo, sets it's max width and adds a transparent border*/
+div.picture img{
+  margin-top: 3em;
+  border: 10px solid;
+  border-radius: 11px;
+  border-color: rgba(255,255,255,.3);
+  max-width: 100%;
+}
+
+/*Sets up the size of the links button and background color (button is 3d by default it kinda looks cool)*/
+button{
+  font-size: 30px;
+  background-color: rgba(255,255,255,.3);
+}
+/*Sets up the drop down menu and makes sure when hovered over it only has the box the size of the text with position:*/
+.dropdown {
+  margin-top: 1em;
+  display: inline-block;
+  position: relative;
+}
+/*Hide drop down menu when not hovered over*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 155%;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+/*styling for drop down box when shown elminates the underlining under links*/
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 5px;
+}
+/*drop down content when hovered highlights text in white and a transparent white background to match the style of the rest of the page*/
+.dropdown-content a:hover {
+  color: black;
+  background-color: rgba(255,255,255,.4);;
+}
+
+/*Show drop down meny when hovered*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}

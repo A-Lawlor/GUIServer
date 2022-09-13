@@ -1,0 +1,69 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Name: Anthony Lawlor, Anthony_Lawlor@student.uml.edu
+Date Created: 9/11/2022
+Description: This webpage was built using the atom editor which I have used in the past for building my own personal website.
+This website is very basic and just involves changing the background to a photo, adding text, adding a photo, and adding links in a dropdown menu.
+Copyright (c) 2022 by Anthony Lawlor. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+updated by AL on Sept 11, 2022 at 6:54 PM
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+  </head>
+  <!-- Sets up body tag of webpage where text, photos, and links go-->
+  <body>
+    <!-- Sets up heading tag for webpage so Hello World is big and bold and centered -->
+    <h1>Hello World</h1>
+
+    <!-- flexbox class that will contain two colums-->
+    <div class=flexbox>
+      <!--left colum contains about me in a header and paragraph tag-->
+      <div class=leftcolum>
+        <div class=aboutMe>
+          <h2>About Me:</h2>
+          <p>My name is Anthony Lawlor and I am a senior computer science undergraduate at the University of Massachuetts Lowell. I am twenty-two years old and grew up in Danvers, Massachuetts. When attending Danvers High School I took AP Computer Science which made me decided I wanted to be a CS major in college. I am the youngest of four and have two cats name Nemo and Dory. Something Interesting that I did over the past summer was I went skydiving in Newport Rhode Island.</p>
+        </div>
+      </div>
+      <!--right colum contains an introduction to the site, a cs related photo and a dropdown menu-->
+      <div class=rightcolum>
+        <div class=intro>
+          <p>Hello welcome to my first website for GUI I. Below is a handful of helpful links to use as a UML Computer Science Student.</p>
+        </div>
+        <!--import photo from a pictures folder-->
+        <div class=picture>
+          <img src="picutres/CS1.png" alt="Computer Science CS1.png">
+        </div>
+        <!--drop down menu which contains a button when hovered over displays the anchor tags-->
+        <div class=dropdown>
+          <button>Links</button>
+          <div class=dropdown-content>
+            <a href="https://www.uml.edu/sciences/computer-science/">UML CS</a>
+            <a href="https://www.uml.edu/sciences/computer-science/faculty/">UML CS Faculty</a>
+            <a href="https://www.uml.edu/catalog/undergraduate/sciences/departments/computer-science/degree-pathways/dp-cs-general-2020.aspx">UML CS Course Pathway</a>
+            <a href="https://cplusplus.com/reference/">C++ Reference</a>
+            <a href="https://docs.python.org/3/reference/">Python Reference</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+Sources Used:
+Damme, Tim Van, et al. “A Complete Guide to Flexbox: CSS-Tricks.” CSS, 30 Aug. 2022, https://css-tricks.com/snippets/css/a-guide-to-flexbox/.
+“Web Style Sheets CSS Tips &amp; Tricks.” W3C, https://www.w3.org/Style/Examples/007/center.en.html.
+“How to - Hoverable Dropdown.” How To Create a Hoverable Dropdown Menu, https://www.w3schools.com/howto/howto_css_dropdown.asp.
+Images:
+Edu, Team Leverage, and Name.*. “Be Computer Science.” Leverage Edu, Leverage Edu, 2 May 2022, https://leverageedu.com/blog/be-computer-science/.
+“Department of Computer Science.” UMass Lowell CS: Alumni, https://www.cs.uml.edu/cs-links/main-alumni.html.
+-->
