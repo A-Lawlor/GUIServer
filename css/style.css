@@ -72,13 +72,13 @@ button{
   background-color: rgba(255,255,255,.3);
 }
 /*Sets up the drop down menu and makes sure when hovered over it only has the box the size of the text with position:*/
-.dropdown {
+div.dropdown {
   margin-top: 1em;
   display: inline-block;
   position: relative;
 }
 /*Hide drop down menu when not hovered over*/
-.dropdown-content {
+div.dropdown-content {
   display: none;
   position: absolute;
   width: 155%;
@@ -86,19 +86,19 @@ button{
 }
 
 /*styling for drop down box when shown elminates the underlining under links*/
-.dropdown-content a {
+div.dropdown-content a {
   text-decoration: none;
   display: block;
   color: black;
   padding: 5px;
 }
 /*drop down content when hovered highlights text in white and a transparent white background to match the style of the rest of the page*/
-.dropdown-content a:hover {
+div.dropdown-content a:hover {
   color: black;
   background-color: rgba(255,255,255,.4);;
 }
 
 /*Show drop down meny when hovered*/
-.dropdown:hover .dropdown-content {
+div.dropdown:hover .dropdown-content {
   display: block;
 }
